@@ -16,10 +16,21 @@ To download pre-trained embeddings, please visit the following link:
 To reproduce the experimental results, follow the following steps:
 1) Download data from the Kaggle competition and keep in "data" folder.
 2) Download the pre-trained embeddings from the above folder and keep in the same source folder. Write the file name in our python code to load the embeddings. For example, you need to update the GLOVE_EMB variable in GloVe_softmax.py file with your own GloVe embedding file name.
+3) Run "data_analysis.py" file to see basic data statistic result for the training dataset.
+4) Run the other python files one by one to find the results of differnt machine learning models on different embeddings.
+
+## Environment settings
+The following environment is used for the implementation:
+
+python==3.6.2
+torch==0.4.1
+numpy==1.15.1
+sklearn==0.19.2
 
 ## Citation
 Please acknowledge the following work in papers or derivative software:
 
+```
 @inproceedings{akc,
     title = "Sentiment analysis of Twitter data to predict disaster",
     author = "AKC",
@@ -29,3 +40,5 @@ Please acknowledge the following work in papers or derivative software:
     doi = "",
     pages = "1-8"
 }
+
+```
