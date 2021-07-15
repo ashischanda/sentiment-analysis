@@ -10,7 +10,7 @@ https://www.kaggle.com/c/nlp-getting-started
 To download pre-trained embeddings, please visit the following link:
 1) https://nlp.stanford.edu/projects/glove/
 2) https://github.com/google-research/bert
-3) "Advances in Pre-Training Distributed Word Representations", Mikolov T. G. and et al. Proceedings of the International Conference on Language Resources and Evaluation, LREC 2018
+3) "_Advances in Pre-Training Distributed Word Representations_", Mikolov T. G. and et al. Proceedings of the International Conference on Language Resources and Evaluation, LREC 2018
 
 ## Reproduce our result
 To reproduce the experimental results, follow the following steps:
@@ -23,8 +23,11 @@ To reproduce the experimental results, follow the following steps:
 The following environment is used for the implementation:
 
 python==3.6.2
+
 torch==0.4.1
+
 numpy==1.15.1
+
 sklearn==0.19.2
 
 ## Citation
