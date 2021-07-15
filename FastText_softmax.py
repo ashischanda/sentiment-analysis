@@ -65,7 +65,7 @@ y_test = pd.get_dummies(Y_validation).values.tolist()
 # *************   Loading pre-trained FastText on Wiki  data ******************
 # *****************************************************************************
 from collections import defaultdict
-FT_EMB = '/home/ashis/ASHIS/1.2_MyDesk/FastText/wiki-news-300d-1M.vec'
+FT_EMB = '/FastText/wiki-news-300d-1M.vec'
 
 embeddings_ = dict()
 
