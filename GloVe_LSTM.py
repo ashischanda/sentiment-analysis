@@ -1,3 +1,8 @@
+'''
+You can use the same LSTM model for Skip-gram, FastText and BERT model
+You just need to update the pre-trained embedding file (i.e. GLOVE_EMB)
+'''
+
 from keras.datasets import imdb
 import pandas as pd
 import numpy as np
