@@ -1,4 +1,4 @@
-# Sentiment analysis of Twitter data to predict disaster
+# Sentiment analysis of Twitter data for disaster prediction 
 We conducted a research work to analysis sentiment of Twitter data based on BOW, contextual and context-free embeddings to predict disaster. We used three traditional machine learing models (decision tree, random forest, and logistic regression) and three popular pre-trained contextual embedings (Skip-gram, FastText, and GloVe). For context-free embeddings, we used pre-trained BERT (Bert-base-uncased) model.
 
 ## Download data
@@ -34,14 +34,11 @@ sklearn==0.19.2
 Please acknowledge the following work in papers or derivative software:
 
 ```
-@inproceedings{akc,
-    title = "Sentiment analysis of Twitter data to predict disaster",
-    author = "AKC",
-    year = "2021",
-    publisher = "",
-    url = "",
-    doi = "",
-    pages = "1-8"
+@article{chanda2021efficacy,
+  title={Efficacy of BERT embeddings on predicting disaster from Twitter data},
+  author={Chanda, Ashis Kumar},
+  journal={arXiv preprint arXiv:2108.10698},
+  year={2021}
 }
 
 ```
