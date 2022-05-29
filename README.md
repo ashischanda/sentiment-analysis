@@ -34,11 +34,13 @@ sklearn==0.19.2
 Please acknowledge the following work in papers or derivative software:
 
 ```
-@article{chanda2021efficacy,
-  title={Efficacy of BERT embeddings on predicting disaster from Twitter data},
-  author={Chanda, Ashis Kumar},
-  journal={arXiv preprint arXiv:2108.10698},
-  year={2021}
+@article{deb2022comparative,
+  title={Comparative analysis of contextual and context-free embeddings in disaster prediction from Twitter data},
+  author={Deb, Sumona and Chanda, Ashis Kumar},
+  journal={Machine Learning with Applications},
+  pages={100253},
+  year={2022},
+  publisher={Elsevier}
 }
 
 ```
